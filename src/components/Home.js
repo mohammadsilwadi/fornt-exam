@@ -35,6 +35,7 @@ addFruit=(item)=>{
         <h1>API Fruits</h1>
         {this.state.friut.map((item) => {
           return(
+            
           <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={ item.image } />
           <Card.Body>
